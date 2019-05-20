@@ -1,0 +1,28 @@
+TODO
+
+- debug
+	- do less recursion, then remember to reduce the stack size.
+
+- physics
+	- one-shot manifolds
+	- joints
+		- add and remove joints (via ui)
+		- uncollidable objects
+	- decouple physics and render framerates
+
+- editor
+	- place objects/joints
+	- build static geometry
+	- save/load scenes
+
+MISC:
+
+- multithread and simd
+- hotload opengl and platform layer
+- looped live code editing
+- better way to specify what should be drawn on top of what
+- should we fix drawing text with a camera that has a non-1 aspect ratio?
+- new matrix format
+	- make simd-izable
+	- most matrices are mostly zeros, mults and inverses could be easier if
+		we could inspect this first.
